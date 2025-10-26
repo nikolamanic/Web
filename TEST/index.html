@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Moj prvi sajt</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>👋 Zdravo, web!</h1>
+    <button id="toggleTheme" aria-label="Promeni temu">🌙 Tema</button>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Pozdrav poruka</h2>
+      <div class="row">
+        <input id="nameInput" type="text" placeholder="Unesi ime..." />
+        <button id="greetBtn">Pozdravi</button>
+      </div>
+      <p id="output" class="output">Poruka će se pojaviti ovde.</p>
+    </section>
+
+    <section class="card">
+      <h2>Brojač klikova</h2>
+      <button id="countBtn">Klikni me</button>
+      <p>Broj klikova: <strong id="count">0</strong></p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <small>© 2025 Moj prvi sajt</small>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
