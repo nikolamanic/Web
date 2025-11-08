@@ -1,0 +1,28 @@
+body{
+background-color: aliceblue;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    border-style: outset;
+    border-width: 2px;
+    border-color:lightskyblue;
+    border-radius: 20px;
+}
+
+#p1{
+    font-family: "lucida console", "courier new";
+    font-size: 1,2em;
+    font-weight: bold;
+    font-style: italic;
+    border: 3px solid black;
+}
+
+#p2{
+    border-bottom: 3px solid red;
+    border-top: 3px dashed yellow;
+    border-right: 3px dotted orange;
+    border-left: 3px inset green;
+    border-radius:15px;
+}
