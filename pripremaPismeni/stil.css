@@ -1,0 +1,58 @@
+body{
+    background-color:yellow;
+    font-family: Arial;
+    font-size:16px;
+}
+ br{
+    text-align: center;
+    font-style: italic;
+    color: green;
+ }
+
+ div.prva{
+    width:50%;
+    text-align:left;
+ }
+
+ table{
+    width: 100%;
+ }
+
+th{
+    background-color: red;
+    color: white;
+}
+
+td{
+    height: 60px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+
+td.druga{
+    width: 20%;
+    text-align: right;
+}
+
+ol{
+    text-transform: lowercase; 
+    color: green;
+}
+
+p{
+    width: 25%;
+    border-style: dashed;
+    border-color:red;
+    border-width: 3px;
+    margin: 120px;
+}
+
+a:link{
+    color:blue;
+}
+
+a:active{
+    color: red;
+}
