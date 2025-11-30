@@ -1,0 +1,72 @@
+body{
+    background-color: yellow;
+    color: blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#CT{
+    text-align: center;
+    font-style: underline;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.pr{
+    width: 25%;
+    float: left;
+}
+
+p{
+    font-size: 16px;
+    color: red;
+    border-style: dashed;
+    color: yellowgreen;
+    border-width: 5px;
+    padding-left: 100px;
+}
+
+div.dr{
+    width: 50%;
+    margin: auto;
+}
+
+table{
+    width: 80%;
+    border-width: 3px;
+}
+
+th{
+    color: green;
+    background-color: yellow;
+}
+
+a:active{
+    color: red;
+}
+
+td{
+    height: 70px;
+    vertical-align: top;
+    text-align: right;
+}
+
+div.tr{
+    float: right;
+}
+
+img{
+    width: 80%;
+    border-width: 5px;
+}
+
+ol{
+    list-style-type: lower-alpha;
+    font-family: sans-serif;
+}
+
+h2,h3{
+    font-style: italic;
+    text-align: center;
+    color: green;
+}
