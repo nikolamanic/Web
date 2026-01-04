@@ -1,0 +1,387 @@
+<!--
+============
+==OVERFLOW==
+============
+
+overflow - kad sadrzaj npr ne moze da stane u element box koristi se ovo svojsto, odnosno sta da radi sa delom koji se ne vidi
+
+overflow: visible;  
+overflow: clip;
+overflow: hidden;
+overflow: scroll;
+overflow: auto;
+
+
+
+
+
+===========
+==DISPLAY==
+===========
+
+display - kako da se element prikaze 
+    block-level = h1, div, p, form, header, footer
+        radi width i height
+    inline = span, a, img
+        ne radi width i height
+
+
+    display: block; = u div element ne radi nista jer je on vec block element, a ako se kao svojstvo u span elementu, on dobija osobine block elementa
+    display: inline; = svojstva inline elemenata, koriste samo onoliko mesta koliko im je potrebno
+    display: inline-block; = slicno inline svojstvu ali width i height su moguci
+    display: none; = ne prikazuje element
+
+
+
+
+============
+==POSITION==
+============
+
+    relative = pozicioniran u odnosu na svoju normalnu poziciju
+    fixed    = pozicioniran u odnosu na viewport 
+    absolute = pozicioniran u odnosu na najbližeg pozicioniranog roditelja
+    sticky   = pozicioniran na osnovu scroll pozicije
+    static   = podrazumijevana (default) pozicija elementa
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+============
+
+==OVERFLOW==
+
+============
+
+
+
+overflow - kad sadrzaj npr ne moze da stane u element box koristi se ovo svojsto, odnosno sta da radi sa delom koji se ne vidi
+
+
+
+overflow: visible;  
+
+overflow: clip;
+
+overflow: hidden;
+
+overflow: scroll;
+
+overflow: auto;
+
+
+
+
+
+
+
+
+
+
+
+===========
+
+==DISPLAY==
+
+===========
+
+
+
+display - kako da se element prikaze
+
+    block-level = h1, div, p, form, header, footer
+
+        radi width i height
+
+    inline = span, a, img
+
+        ne radi width i height
+
+
+
+
+
+    display: block; = u div element ne radi nista jer je on vec block element, a ako se kao svojstvo u span elementu, on dobija osobine block elementa
+
+    display: inline; = svojstva inline elemenata, koriste samo onoliko mesta koliko im je potrebno
+
+    display: inline-block; = slicno inline svojstvu ali width i height su moguci
+
+    display: none; = ne prikazuje element
+
+
+
+
+
+
+
+
+
+============
+
+==POSITION==
+
+============
+
+
+
+    relative = pozicioniran u odnosu na svoju normalnu poziciju
+
+    fixed    = pozicioniran u odnosu na viewport
+
+    absolute = pozicioniran u odnosu na najbližeg pozicioniranog roditelja
+
+    sticky   = pozicioniran na osnovu scroll pozicije
+
+    static   = podrazumijevana (default) pozicija elementa
+
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+   
+
+
+==============
+==BACKGROUND==
+==============
+
+background-image - postavljanje slike u pozadinu elementa
+
+    background-image: url("slika.jpg");   - putanja do slike 
+    background-repeat: no-repeat;         - sprečava ponavljanje slike 
+    background-size: cover;               - slika pokriva celu površinu elementa 
+    background-attachment: fixed;         - pozadina ostaje fiksna pri skrolovanju 
+    background-size: cover;               - zauzima povrsinu cele stranice
+
+
+
+===============
+==COMBINATORS==
+===============
+
+combinators - biranje elemenata na osnovu njihovog odnosa sa drugima
+
+    div p     - Descendant: svi <p> unutar <div>-a (deca, unuci...) 
+    div > p   - Child: samo direktni potomci (deca) <div>-a 
+    div + p   - Adjacent Sibling: prvi <p> odmah posle <div>-a 
+    div ~ p   - General Sibling: svi <p> elementi koji su "braća" <div>-u 
+
+
+
+
+================
+==PSEUDO-KLASE==
+================
+
+pseudo-classes - stilizovanje elemenata na osnovu njihovog stanja
+
+    :hover       - kada se mišem pređe preko elementa 
+    :active      - u trenutku klika na element 
+    :focus       - kada je element u fokusu (npr. input polje) 
+    :nth-child() - biranje elementa po redosledu (npr. :nth-child(2)) 
+
+
+
+
+
+
+===================
+==PSEUDO-ELEMENTI==
+===================
+
+pseudo-elements - stilizovanje specifičnog dela elementa
+
+    ::before        - ubacuje sadržaj pre sadržaja elementa (uz content: "")
+    ::after         - ubacuje sadržaj posle sadržaja elementa
+    ::first-letter  - stilizuje samo prvo slovo teksta
+    ::selection     - stilizuje tekst koji je korisnik selektovao mišem
+
+
+
+
+==============
+==PAGINATION==
+==============
+
+pagination - navigacija kroz stranice (brojevi na dnu)
+
+    Koristi se list-style-type: none za uklanjanje tačkica 
+    display: inline-block za <a> tagove da bi bili u jednom redu 
+    :hover efekat za promenu boje pozadine pri prelasku mišem 
+
+
+
+
+==================
+==DROPDOWN MENUS==
+==================
+
+dropdown menus - meniji koji se pojavljuju na interakciju
+
+    .content { display: none; }                  - podrazumevano sakriven
+    .dropdown:hover .content { display: block; } - prikaži kada je miš iznad
+    position: absolute;                          - da meni "lebdi" iznad ostalog sadržaja
+
+
+
+
+==================
+==NAVIGATION BAR==
+==================
+
+navigation bar - glavni meni sajta
+
+    list-style-type: none;  - sklanja tačkice iz liste
+    overflow: hidden;       - često se koristi kod float rešenja
+    display: block;         - za <a> tagove unutar menija radi većeg prostora za klik
+    float: left;            - stariji način ređanja elemenata u red
+
+
+
+
+
+
+
+==================
+==WEBSITE LAYOUT==
+==================
+
+semanticki tagovi   -koriste se da sadrzaj bude organizovan
+
+<header>
+<nav>
+<main>
+<selection>
+<aside>
+<article>
+<footer>
+
+
+
+=================
+==IMAGE GALLERY==
+=================
+
+image gallery - organizovan prikaz više slika
+
+    width: 100%;    - slika unutar kontejnera zauzima sav prostor
+    height: auto;   - održava proporcije slike
+    opacity: 0.8;   - često se koristi za efekat providnosti
+    box-shadow;     - dodaje dubinu slikama u galeriji
+
+
+
+=========
+==ICONS==
+=========
+
+icons - dodavanje grafičkih simbola (npr. FontAwesome)
+
+    /* Tretiraju se kao tekstualni fontovi */
+    font-size: 30px; - menja veličinu ikonice
+    color: red;      - menja boju ikonice
+
+
+
+
+===========
+==FLEXBOX==
+===========
+
+flexbox - najlakši način za 1D raspoređivanje (redovi ili kolone)
+
+    display: flex;           - aktivira flex na roditelju
+    flex-direction: column;  - ređa elemente jedan ispod drugog
+    justify-content: center; - poravnanje po glavnoj osi
+    align-items: center;     - poravnanje po poprečnoj osi
+    gap: 20px;               - razmak između elemenata
+
+
+
+
+
+===================
+==TRANSFORMATIONS==
+===================
+
+transform - menja oblik, veličinu ili poziciju (2D/3D)
+
+    transform: translate(x, y); - pomera element sa trenutne pozicije
+    transform: rotate(45deg);   - rotira element za određeni ugao
+    transform: scale(1.2);      - povećava element (1.2 puta)
+    transform: skew(10deg);     - krivi element
+
+
+
+
+
+==============
+==ANIMATIONS==
+==============
+
+animations - kreiranje pokreta i efekata kroz vreme
+
+    @keyframes ime {
+        from { ... } - početno stanje
+        to { ... }   - krajnje stanje
+    }
+
+    animation-name: ime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; - stalno se ponavlja
+    animation-delay: 1s;                 - pauza pre početka
+-->
