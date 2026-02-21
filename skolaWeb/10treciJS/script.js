@@ -1,5 +1,5 @@
 //alert('Hello world');
-/*
+
 x = parseInt(prompt('x=?'));
 y = parseInt(prompt('y=?'));
 z = x + y;
@@ -262,4 +262,3 @@ alert(tro%10);
 
 let string = "Programiranje je super";
 alert(string.slice(0, 13));
-*/
