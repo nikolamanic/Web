@@ -1,4 +1,3 @@
-/*
 while(uslov)
 {
   telo
@@ -151,7 +150,7 @@ for(i = 0; i < 3; i++)
 p = p / br;
 alert(`Prosek je: ${p.toFixed(2)}`);
 
-*/
+
 let br = 0;
 let i = 0;
 let p = 0;
