@@ -15,7 +15,7 @@ alert(`Kvadrat broja ${x} je: ${kv}\n
 Koren broja ${x} je: ${ko}`);
 
 //Za uneti dvocifren broj ako je cifra desetice deljiva cifrom jedinice 
-//ispisati novi dvocifreni broj u obrnutom redosledu. Inace ako nije deljiva naci abs razlike cifre desetice i jedinice vrednost cifre jedinice i desetice
+//ispisati novi dvocifreni broj u obrnutom redosledu. Inace ako nije deljiva naci abs razlike cifre desetice i jedinice 
 
 let y = parseInt(prompt("Unesi dvocifreni broj"));
 let d = parseInt(y/10);
