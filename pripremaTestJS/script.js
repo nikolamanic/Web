@@ -1,5 +1,5 @@
 //Funkcije u JS
-/*
+
 function ime (a, b){
   //telo Funkcije
   return rezF-je
@@ -80,10 +80,10 @@ let [j, s] = zbir(a);
 let r = Math.sqrt(s + j);
 alert(`Koren zbira je: ${r}`);
 
-*/
+
 
 //Grananje
-/*
+
 if(uslov){
   naredbe   //DA
 }
@@ -199,7 +199,7 @@ veća od cifre jedinice izračunati proizvod njegovih cifara, ako je cifra
 desetice manja od cifre jedinice izračunati apsolutnu vrednost razlike njegovih
 cifara, a ako su jednake nalazi stepen cifre desetice na cifru jedinice.*/
 
-/*
+
 let br = parseInt(prompt("Unesi broj"));
 let j = br%10;
 let d = parseInt(br/10)%10;
@@ -218,13 +218,13 @@ else{
 
 alert(`Rezultat je: ${z}`);
 
-*/
+
 
 /*
  2.Napisati program koji računa kvadratni koren zbira cifre stotice i
 cifre jedinice trocifrenog broja. Funkcija nalazi cifru stotice i cifre
 jedinice trocifrenog broja. */
-/*
+
 function cifre(broj){
   let j = broj%10;
   let d = parseInt(broj/10)%10;
@@ -257,12 +257,12 @@ else{
 }
 
 alert(`Vrednost izraze Z=: ${z.toFixed(2)}`);
-*/
+
 
 
 //Petlje
 
-/*
+
 let inicijalizacija;
 while(uslov){
   telo
@@ -407,7 +407,7 @@ alert("Prosek je: " + (s / b).toFixed(2));
 
 
 //Zadaci od Gemini
-/*
+
 //1
 function tro(a){
   let o = 3 * a;
@@ -630,4 +630,3 @@ for(let i = 1; i <= n; i++){
   }
 }
 alert(`Proizvod je: ${p}`);
-*/
