@@ -1,4 +1,4 @@
-//Napisati program koji ucitava broj i ako je paran racuna njegov kvadra
+//Napisati program koji ucitava broj i ako je paran racuna njegov kvadrat
 
 let x = parseInt(prompt("Unesi broj"));
 if (x % 2 === 0)
