@@ -1,3 +1,4 @@
+/*
 let x = "ana";
 let y = "broj";
 alert(`${x.slice(1,3)}${y}${x}`);
@@ -43,7 +44,7 @@ alert(`Hipotenuza je: ${h}`);
 
 ${toFixed(2)}
 
-
+*/
 
 
 function rac(x){

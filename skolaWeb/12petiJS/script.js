@@ -1,4 +1,4 @@
-//Napisati program koji ucitava broj i ako je paran racuna njegov kvadrat
+//Napisati program koji ucitava broj i ako je paran racuna njegov kvadra
 
 let x = parseInt(prompt("Unesi broj"));
 if (x % 2 === 0)
@@ -72,7 +72,7 @@ else (a <= -3){
 }
 //alert(`Izraz je: ${z.toFixed(z)}`)
 
-
+*/
 //Mapisati program koji racuna kv koren zbira cifara ako je zbir cifara paran inace racuna abs vrednost razlike cifara. Funkcija trazi cifre trocifrenog broja
 
 function cifre(a){
